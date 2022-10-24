@@ -1,0 +1,65 @@
+* {
+  outline: 0;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Archivo", sans-serif;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 420px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#logo {
+  width: 300px;
+}
+
+#title {
+  margin-top: 2.5rem;
+  margin-bottom: 1.6rem;
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  margin-bottom: 1rem;
+}
+
+.form-group input, .form-group textarea {
+  border: 1px solid #777;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-top: 0.5rem;
+  font-family: 'Archivo', sans-serif;
+}
+
+.form-group input:focus, .form-group textarea:focus{
+    border-color: #04D361;
+}
+
+#contact button{
+    padding: 1rem;
+    background-color: #04D361;
+    color: #fff;
+    border-radius: 8px;
+}
+
