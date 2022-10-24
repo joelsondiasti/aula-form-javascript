@@ -44,22 +44,41 @@ body {
   margin-bottom: 1rem;
 }
 
-.form-group input, .form-group textarea {
+.form-group input,
+.form-group textarea {
   border: 1px solid #777;
   padding: 1rem;
   border-radius: 8px;
   margin-top: 0.5rem;
-  font-family: 'Archivo', sans-serif;
+  font-family: "Archivo", sans-serif;
 }
 
-.form-group input:focus, .form-group textarea:focus{
-    border-color: #04D361;
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #04d361;
 }
 
-#contact button{
-    padding: 1rem;
-    background-color: #04D361;
-    color: #fff;
-    border-radius: 8px;
+#contact button {
+  padding: 1rem;
+  background-color: #04d361;
+  color: #fff;
+  border-radius: 8px;
 }
 
+#contact button:hover {
+  background-color: #039243;
+  cursor: pointer;
+}
+
+#mensage {
+  display: none;
+  width: fit-content;
+  align-self: center;
+  margin-top: 1rem;
+  background-color: #c9ebd8;
+  padding: 1rem;
+  border-radius: 8px;
+  color: #039243;
+  text-align: center;
+  font-weight: 600;
+}
